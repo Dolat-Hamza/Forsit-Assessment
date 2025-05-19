@@ -1,27 +1,33 @@
 # E-Commerce Admin Dashboard
 
-A comprehensive web-based admin dashboard for e-commerce managers that centralizes crucial data points such as sales, revenue, and inventory status. The dashboard includes a Revenue Analysis Page, an Inventory Management Page, and a Product Registration feature with sample data for products sold on Amazon & Walmart.
+A comprehensive web-based admin dashboard for e-commerce managers that centralizes crucial data points such as sales,
+revenue, and inventory status. The dashboard includes a Revenue Analysis Page, an Inventory Management Page, and a
+Product Registration feature with sample data for products sold on Amazon & Walmart.
 
 ## Features
 
 ### Revenue Analysis Page
+
 - Real-time display of total orders and sales (revenue)
 - Interactive charts to visualize orders, sales, and inventory trends over time (daily, weekly, monthly, annually)
 - Revenue data filterable by product categories
 - Interactive charts displaying revenue trends and comparisons
 
 ### Inventory Management Page
+
 - List view of all products with current inventory status
 - Options to sort, filter, and search products
 - Functionality to update inventory levels
 - Low inventory alerts and forecasting to indicate when restocking is necessary
 
 ### Product Registration
+
 - Form to add new products to the inventory, with fields for product name, description, price, and initial stock level
 - Option to upload product images
 - Successful submission updates the inventory and is reflected across the dashboard
 
 ### Authentication
+
 - Basic email/password authentication
 - Protected routes for dashboard pages
 - User session management
@@ -81,12 +87,14 @@ ecommerce-admin-dashboard/
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/ecommerce-admin-dashboard.git
 cd ecommerce-admin-dashboard
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 # or
@@ -94,6 +102,7 @@ yarn install
 ```
 
 3. Run the development server
+
 ```bash
 npm run dev
 # or
@@ -105,12 +114,14 @@ yarn dev
 ### Authentication
 
 For demo purposes, use the following credentials:
+
 - Email: admin@example.com
 - Password: password123
 
 ## API Integration
 
-The dashboard is designed to work with mockapi.io. The mock data structure is available in `src/mockData/mockData.ts` and can be used to set up your mockapi.io endpoints.
+The dashboard is designed to work with mockapi.io. The mock data structure is available in `src/mockData/mockData.ts`
+and can be used to set up your mockapi.io endpoints.
 
 ### API Endpoints Structure
 
@@ -127,7 +138,8 @@ The dashboard is designed to work with mockapi.io. The mock data structure is av
 
 ### Theming
 
-The dashboard uses Ant Design's theming system. You can customize the theme by modifying the ConfigProvider in `src/app/(dashboard)/layout.tsx`.
+The dashboard uses Ant Design's theming system. You can customize the theme by modifying the ConfigProvider in
+`src/app/(dashboard)/layout.tsx`.
 
 ### Adding New Features
 
@@ -142,13 +154,23 @@ Screenshots
 ###### **Landing Page:**
 
 ![img.png](img.png)
+
 ###### **Login Page:**
+
 ![img_1.png](img_1.png)
+
 ###### **Dashboard Page:**
+
 ![img_2.png](img_2.png)
+
 ###### **Revenue Analysis Page:**
+
 ![img_3.png](img_3.png)
+
 ###### **Inventory Management Page:**
+
 ![img_4.png](img_4.png)
+
 ###### **Product Registration Page:**
+
 ![img_5.png](img_5.png)
