@@ -26,7 +26,7 @@ export default function RegisterPage() {
       } else {
         message.error('Registration failed. Please try again.');
       }
-    } catch (error) {
+    } catch (_error) { // eslint-disable-line @typescript-eslint/no-unused-vars
       message.error('An error occurred. Please try again.');
     } finally {
       setLoading(false);

@@ -26,7 +26,7 @@ export default function LoginPage() {
       } else {
         message.error('Invalid credentials');
       }
-    } catch (error) {
+    } catch (_error) { // eslint-disable-line @typescript-eslint/no-unused-vars
       message.error('An error occurred. Please try again.');
     } finally {
       setLoading(false);
@@ -90,7 +90,7 @@ export default function LoginPage() {
           
           <div className="text-center mt-4">
             <Text className="text-gray-500">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link href="/register" className="text-primary hover:text-primary-dark font-medium">
                 Sign up
               </Link>

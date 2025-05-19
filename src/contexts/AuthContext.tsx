@@ -58,12 +58,13 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       }
       setIsLoading(false);
       return false;
-    } catch (error) {
+    } catch (_error) { // eslint-disable-line @typescript-eslint/no-unused-vars
       setIsLoading(false);
       return false;
     }
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const register = async (name: string, email: string, password: string): Promise<boolean> => {
     setIsLoading(true);
     try {
@@ -79,7 +80,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       setUser(newUser);
       setIsLoading(false);
       return true;
-    } catch (error) {
+    } catch (_error) { // eslint-disable-line @typescript-eslint/no-unused-vars
       setIsLoading(false);
       return false;
     }
