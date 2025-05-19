@@ -41,7 +41,7 @@ export default function Home() {
                             <Title level={1} className="text-white text-4xl md:text-5xl font-bold mb-6">
                                 Powerful E-Commerce Analytics Dashboard
                             </Title>
-                            <Paragraph className="text-blue-100 text-lg mb-8">
+                            <Paragraph className="text-black text-lg mb-8">
                                 Centralize your e-commerce data from Amazon & Walmart. Monitor sales,
                                 track inventory, and make data-driven decisions to grow your business.
                             </Paragraph>
