@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+      <header className="bg-gradient-to-r from bg-red-300 to bg-violet-200 text-white">
         <div className="container mx-auto px-6 py-16">
           <nav className="flex justify-between items-center mb-16">
             <div className="text-2xl font-bold">EcomDash</div>
