@@ -123,13 +123,13 @@ export default function InventoryPage() {
       key: 'name',
       render: (text, record) => (
         <div className="flex items-center">
-          {record.image && (
-            <img 
-              src={record.image} 
-              alt={text} 
-              className="w-10 h-10 object-cover rounded mr-3"
-            />
-          )}
+          {/*{record.image && (*/}
+          {/*  <img */}
+          {/*    src={record.image} */}
+          {/*    alt={text} */}
+          {/*    className="w-10 h-10 object-cover rounded mr-3"*/}
+          {/*  />*/}
+          {/*)}*/}
           <div>
             <div className="font-medium">{text}</div>
             <div className="text-xs text-gray-500">{record.id}</div>

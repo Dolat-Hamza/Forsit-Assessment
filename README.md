@@ -137,6 +137,18 @@ The modular structure makes it easy to add new features:
 2. Add new routes in the app directory
 3. Update the sidebar navigation in `src/components/layout/Sidebar.tsx`
 
-## License
+Screenshots
 
-This project is licensed under the MIT License.
+###### **Landing Page:**
+
+![img.png](img.png)
+###### **Login Page:**
+![img_1.png](img_1.png)
+###### **Dashboard Page:**
+![img_2.png](img_2.png)
+###### **Revenue Analysis Page:**
+![img_3.png](img_3.png)
+###### **Inventory Management Page:**
+![img_4.png](img_4.png)
+###### **Product Registration Page:**
+![img_5.png](img_5.png)
